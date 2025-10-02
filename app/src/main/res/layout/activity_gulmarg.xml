@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    tools:context=".MainActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:padding="10dp"
+                android:text="Gulmarg"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="#1584bf"
+                android:fontFamily="@font/adamina"/>
+
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:fontFamily="@font/antic"
+                android:textColor="@color/black"
+                android:paddingRight="10dp"
+                android:text="@string/gulmarg">
+            </me.biubiubiu.justifytext.library.JustifyTextView>
+
+
+            <!--        ============ To make image slidder ==========-->
+            <HorizontalScrollView
+
+                android:layout_width="match_parent"
+                android:layout_marginLeft="-10dp"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="-20dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="360dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:elevation="10dp"
+                        app:cardBackgroundColor="#C1AFAF"
+                        app:cardCornerRadius="20dp"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:layout_width="360dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gulmarg1" />
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="360dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:elevation="10dp"
+                        app:cardBackgroundColor="#C1AFAF"
+                        app:cardCornerRadius="20dp"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/gundola" />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="360dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:elevation="10dp"
+                        app:cardBackgroundColor="#C1AFAF"
+                        app:cardCornerRadius="20dp"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/pehalgam" />
+
+
+                    </androidx.cardview.widget.CardView>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="360dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:elevation="10dp"
+                        app:cardBackgroundColor="#C1AFAF"
+                        app:cardCornerRadius="20dp"
+                        app:cardMaxElevation="12dp"
+                        app:cardPreventCornerOverlap="true"
+                        app:cardUseCompatPadding="true">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/betaab" />
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <!--       ==================== End Of Image slider==================-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</androidx.drawerlayout.widget.DrawerLayout>

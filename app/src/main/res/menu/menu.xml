@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_24"
+            />
+
+        <item android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/person_24"
+            />
+
+        <item android:id="@+id/nav_contact_us"
+            android:title="Contact Us"
+            android:icon="@drawable/contact_support_24"
+            />
+
+        <item android:id="@+id/nav_helpline"
+            android:title="Helpline 24x7"
+            android:icon="@drawable/timer_24"
+            />
+
+        <item android:id="@+id/nav_about_us"
+            android:title="About Us"
+            android:icon="@drawable/info_24"
+            />
+
+        <item android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:icon="@drawable/power_settings_new_24"
+            />
+    </group>
+
+
+</menu>

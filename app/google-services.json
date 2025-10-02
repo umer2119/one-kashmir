@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "428591439876",
+    "project_id": "onekashmir-6d7aa",
+    "storage_bucket": "onekashmir-6d7aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:428591439876:android:ec8a70638fd169fbce1551",
+        "android_client_info": {
+          "package_name": "com.example.bull_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "428591439876-43g724dp4mrqc0chm3fbt2bh9mtl3c0a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYEmom6QI2y9ClzG6uPZG7J8QPKa238wg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "428591439876-43g724dp4mrqc0chm3fbt2bh9mtl3c0a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

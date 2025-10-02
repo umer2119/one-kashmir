@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+
+tools:context=".helpline">
+
+<com.google.android.material.appbar.AppBarLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        app:titleTextColor="@color/white"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#00020202"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:id="@+id/back"
+                android:src="@drawable/arrow_back"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="100dp"
+                android:text="Helpline "
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-condensed"/>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</com.google.android.material.appbar.AppBarLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+<!--    Emergency =====-->
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="20dp"
+
+                app:cardCornerRadius="20dp"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="EMERGENCY"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:textColor="#484a49"
+                        android:fontFamily="sans-serif-medium"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:id="@+id/police"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Police 100"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/ambulance"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Ambulance 102 &amp; 108"
+            android:textSize="15dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/fire"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Fire 101"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+<!--Emergency End-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="20dp"
+                app:cardCornerRadius="20dp"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="HEADQUARTERS"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:textColor="#484a49"
+                        android:fontFamily="sans-serif-medium"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:id="@+id/phq_jammu"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Jammu 019-2455113-15"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:id="@+id/phq_srinagar"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Srinagar 0194-2443022-23"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+<!--    SMC-->
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="20dp"
+                app:cardCornerRadius="20dp"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="SRINAGAR MUNCIPAL CORPORATION (SMC)"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:textColor="#484a49"
+                        android:fontFamily="sans-serif-medium"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="SMC 14420"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="SMC 18001807038"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="SSMC +9119942474499"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="SMC 01944270465"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+<!--    SMC ends-->
+
+<!--    PCR -->
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="20dp"
+                app:cardCornerRadius="20dp"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="POLICE CONTROL ROOM - JAMMU "
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:textColor="#484a49"
+                        android:fontFamily="sans-serif-medium"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="0194-24520092"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="2566460-62"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="2566465-66"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="254721-21,24"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+<!--    PCR jammu ENDS-->
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="20dp"
+                app:cardCornerRadius="20dp"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="POLICE CONTROL ROOM - SRINAGAR "
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:textColor="#484a49"
+                        android:fontFamily="sans-serif-medium"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="011-23978046"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="1075"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="20dp"
+                app:cardCornerRadius="20dp"
+                android:outlineAmbientShadowColor="@color/black">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:text="WOMENS HELPLINE"
+                        android:layout_gravity="center"
+                        android:paddingLeft="10dp"
+                        android:textColor="#484a49"
+                        android:fontFamily="sans-serif-medium"/>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_call_24"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="1091"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
