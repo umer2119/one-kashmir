@@ -44,13 +44,16 @@ ONE KASHMIR is an integrated Android application designed to unify multiple stat
 
 ---
 ##  🖼 Example Screenshots
-| Login Screen   | SignUp  | Dashboard |
+|  Splash Screen  | Login Screen  | SignUp  |
 |----------------|----------------|----------------|
-| ![Login Screen](images/Img1.jpg) | ![SugnUp](images/img2.jpg) | ![Decrypted](images/decrypted_Baboon.png) |
+| ![Splash Screen](images/Img1.jpg) | ![Login Screen](images/ig22.jpg) | ![SignUp](images/img2.jpg) |
+|  MenuBar  | User Profile  | Contact  |
+| ![MenuBar](images/img5.jpg)| ![User Profile](images/img6.jpg) |![Contact](images/img7.jpg) |
+| Helpline | User Profile  | About  |
+| ![Helpline](images/img8.jpg) | ![User Profile](images/img5.jpg) | ![About](images/img9.jpg) |
 
 
 
-(images
 
 
 
