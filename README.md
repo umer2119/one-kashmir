@@ -36,12 +36,22 @@ ONE KASHMIR is an integrated Android application designed to unify multiple stat
 - *Local and remote data management integrated using Gradle dependencies.*   
 
 ---
+## 📦 Dependencies
+- *Android SDK*
+- *Gradle*
+- *Google Services*
+- *Backend Firebase*
+- *JDK*
+---
 
+## 💡 How to Run
 
-
-
-
-
+1. Clone the repository:
+   - git clone https://github.com/umer2119/one-kashmir.git
+2. Open in Android Studio.
+3. Sync Gradle and build the project.
+4. Run on an emulator or connected device.
+   
 ---
 ##  🖼 Example Screenshots
 |  Splash Screen  | Login Screen  | SignUp  |
@@ -49,34 +59,33 @@ ONE KASHMIR is an integrated Android application designed to unify multiple stat
 | ![Splash Screen](images/Img1.jpg) | ![Login Screen](images/ig22.jpg) | ![SignUp](images/img2.jpg) |
 |  MenuBar  | User Profile  | Contact  |
 | ![MenuBar](images/img5.jpg)| ![User Profile](images/img6.jpg) |![Contact](images/img7.jpg) |
-| Helpline | User Profile  | About  |
-| ![Helpline](images/img8.jpg) | ![User Profile](images/img5.jpg) | ![About](images/img9.jpg) |
+| Helpline | Dashboard  | About  |
+| ![Helpline](images/img8.jpg) | ![Dashboard](images/img10.jpg) | ![About](images/img9.jpg) |
+| PHE Department | PWD Department  | Tourism  |
+| ![PHE](images/img12.jpg) | ![PWD](images/img15.jpg) | ![Tourism](images/img16.jpg) |
+| Tourist Destination | Gulmarg  | Hotels  |
+| ![Tourist](images/img17.jpg) | ![Gulmarg](images/img18.jpg) | ![Hotels](images/img19.jpg) |
 
-
-
-
-
-
-
-
-
+---
+## 👨‍🎓 STUDENT
+**Umer Farooq**
+M.Tech  (Computer Science and Engineering)
 
 ---
 
 ## 📂 Project Structure
-├── encryption.py # Main encryption and decryption implementation
-├── utils/ # Helper functions (chaotic maps, DNA/RNA rules, scrambling, etc.)
-├── README.md # Project documentation
+```text
+ONE_KASHMIR/
+├── app/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/example/bull_project/  # All Java classes
+│   │   │   ├── res/                            # XML layouts, drawables, mipmaps
+│   │   │   ├── AndroidManifest.xml
+│   │   └── test/                               # Unit tests
+├── build.gradle
+├── gradle.properties
+├── settings.gradle
+├── README.md
 
----
 
----
-
-## 👨‍🎓 STUDENT
-
-
-**Umer Farooq**
-Roll Number: **03MTGC23**
-Department of Computer Science & Engineering
-**Government College of Engineering and Technology (GCET), Jammu**
-M.Tech (4th Sem) (Computer Science and Engineering)
